@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Маникюр Рулетка</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🎰 Маникюр Рулетка</h1>
+
+  <div class="roulette-container">
+    <div class="roulette">
+      <h2>Форма</h2>
+      <img id="shape-img" class="slot-img" src="" alt="Форма" />
+      <div id="shape" class="slot">-</div>
+    </div>
+    <div class="roulette">
+      <h2>Дизайн</h2>
+      <img id="design-img" class="slot-img" src="" alt="Дизайн" />
+      <div id="design" class="slot">-</div>
+    </div>
+    <div class="roulette">
+      <h2>Цвет</h2>
+      <img id="color-img" class="slot-img" src="" alt="Цвет" />
+      <div id="color" class="slot">-</div>
+    </div>
+    <div class="roulette">
+      <h2>Длина</h2>
+      <img id="length-img" class="slot-img" src="" alt="Длина" />
+      <div id="length" class="slot">-</div>
+    </div>
+  </div>
+
+  <button onclick="spin()">🎲 Крутить рулетку</button>
+
+  <div id="result" class="result"></div>
+  <div id="pinterest-link" style="margin-top: 20px;"></div>
+  <div id="particles-container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
